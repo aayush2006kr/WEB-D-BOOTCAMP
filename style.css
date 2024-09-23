@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bulb {
+    width: 300px;
+    height: 500px;
+    background-image: url('bulboff.jpg');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+.bulb:hover {
+    background-image: url('bulbglow.jpg');
+}
